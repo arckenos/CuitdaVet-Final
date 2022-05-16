@@ -30,8 +30,8 @@ class contactos : AppCompatActivity() {
             override fun onChildRemoved(dataSnapshot: DataSnapshot) {}
 
             override fun onChildAdded(dataSnapshot: DataSnapshot, p1: String?) {
-                val usuario = dataSnapshot.getValue(Contacts::class.java)
-                if (usuario != null) writeMark(usuario)
+//                val usuario = dataSnapshot.getValue(Contacts::class.java)
+  //              if (usuario != null) writeMark(usuario)
             }
         })
 
