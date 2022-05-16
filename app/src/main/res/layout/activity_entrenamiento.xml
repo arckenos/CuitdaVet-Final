@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".entrenamiento">
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_cafeoscuro"
+        android:paddingHorizontal="50dp"
+        android:text="Entrenamientos"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+        android:id="@+id/btn_patita"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#372F18"
+        android:text="Dar la patita"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="false"
+        android:background="@drawable/round_et"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btn_sentarse"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#372F18"
+        android:text="Sentarse"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_et"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_pelota"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#372F18"
+        android:layout_marginTop="20dp"
+        android:text="Ir por la pelota"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@drawable/round_et"
+        android:textSize="25dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/iv_huella"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_pets"
+        app:tint="@color/cafe_oscuro" />
+
+</LinearLayout>

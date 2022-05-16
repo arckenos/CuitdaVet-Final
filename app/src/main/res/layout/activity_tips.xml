@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".foro">
+
+    <ImageView
+        android:id="@+id/iv_huella"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logoblanco"
+        app:tint="@color/cafe_claro" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="¿Qué necesito para ser el mejor dueño?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingHorizontal="50dp"
+            android:text="Cepillo para el pelo"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/round_et"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingHorizontal="50dp"
+            android:text="Shampoo"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/round_et"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingHorizontal="50dp"
+            android:text="Correa y collar"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/round_et"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingHorizontal="50dp"
+            android:text="Cortauñas"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/round_et"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingHorizontal="50dp"
+            android:text="Ropa de invierno"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/round_et"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingHorizontal="50dp"
+            android:text="Cartilla de vacunación"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/round_et"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingHorizontal="50dp"
+            android:text="App Cuida Vet"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/round_et"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

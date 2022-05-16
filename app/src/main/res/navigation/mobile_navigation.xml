@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="encinas.maria.cuidavet.ui.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="encinas.maria.cuidavet.ui.notas.NotasFragment"
+        android:label=""
+        tools:layout="@layout/fragment_notas" />
+
+    <fragment
+        android:id="@+id/nav_cambiarusuario"
+        android:name="encinas.maria.cuidavet.ui.cambiarusuario.CambiarusuarioFragment"
+        android:label=""
+        tools:layout="@layout/fragment_editarusuario" />
+
+    <fragment
+        android:id="@+id/nav_cambiarcontrasena"
+        android:name="encinas.maria.cuidavet.ui.cambiarcontrasena.CambiarcontrasenaFragment"
+        android:label=""
+        tools:layout="@layout/fragment_cambiarcontra" />
+
+    <fragment
+        android:id="@+id/nav_privacidad"
+        android:name="encinas.maria.cuidavet.ui.avisoprivacidad.AvisoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_privacidad" />
+
+</navigation>

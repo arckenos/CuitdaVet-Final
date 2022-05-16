@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:columnCount="2"
+        android:paddingHorizontal="60dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_calendario"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_calendar"
+            android:backgroundTint="@color/cafe_oscuro"/>
+
+        <Button
+            android:id="@+id/btn_foro"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="end"
+            android:background="@drawable/ic_user"
+            android:paddingEnd="60dp" />
+
+        <Button
+            android:id="@+id/btn_entrenamiento"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/mascota" />
+
+        <Button
+            android:id="@+id/btn_compras"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_shop"
+            android:paddingEnd="60dp" />
+
+        <Button
+            android:id="@+id/btn_mascotas"
+            android:layout_width="123dp"
+            android:layout_height="138dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_pets" />
+
+        <Button
+            android:id="@+id/btn_telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_contacs"
+            android:paddingEnd="60dp" />
+
+    </GridLayout>
+
+</LinearLayout>

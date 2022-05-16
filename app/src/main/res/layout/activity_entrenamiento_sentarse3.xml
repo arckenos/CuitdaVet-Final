@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".EntrenamientoSentarse2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sentarse"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Paso 3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/perrocaricia" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Instrucciones"
+        android:background="@drawable/boton_cafeclaro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Una vez que esté sentado, diga “Sentado”, dile “Muy bien” y dáselo la golosina y afecto."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_atras"
+            android:layout_width="61dp"
+            android:layout_height="43dp"
+            android:background="@drawable/ic_back"
+            android:layout_gravity="start" />
+
+        <Button
+            android:id="@+id/btn_siguiente"
+            android:layout_width="61dp"
+            android:layout_height="43dp"
+            android:background="@drawable/ic_next"
+            android:layout_gravity="end"
+            android:gravity="center"/>
+
+    </GridLayout>
+
+</LinearLayout>

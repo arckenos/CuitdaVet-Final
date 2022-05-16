@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".alimento">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Horarios de alimentacion"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/alimentacion" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_marginTop="30dp"
+        android:text="Sirviendo sus comidas a las mismas horas y en las mismas cantidades conseguimos que nuestro perro tenga también unos horarios fijos para hacer sus necesidades. Los perros adultos generalmente suelen hacer sus necesidades tras 30-60 minutos de haber comido, así que si lo hacemos de este modo será mucho mas fácil organizar nuestro día a día."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"/>
+
+</LinearLayout>

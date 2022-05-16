@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cuida Vet</string>
+    <string name="texto_privacidad">El presente Aviso de Privacidad se emite en cumplimiento por lo dispuesto por el artículo 15 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), de los Lineamientos Generales previstos en el artículo 43, en su fracción III de esta Ley y del artículo 23 de su Reglamento. El Centro Mexicano para la Filantropía, A.C. (Cemefi) tiene el compromiso jurídico legal y social de cumplir con las medidas legales y de seguridad para proteger sus datos personales con el objetivo de que usted tenga el conocimiento, control y decisión sobre ellos.</string>
+    <string name="title_activity_menu_desplegable">menu_desplegable</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

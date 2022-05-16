@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="ui.avisoprivacidad.AvisoFragment">
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aviso de Privacidad"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:background="@drawable/boton_cafeclaro"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/texto_privacidad"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_hecho"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/boton_cafeclaro"
+        android:text="Hecho"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginStart="100dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/iv_huella"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_pets"
+        app:tint="@color/cafe_oscuro" />
+
+</LinearLayout>

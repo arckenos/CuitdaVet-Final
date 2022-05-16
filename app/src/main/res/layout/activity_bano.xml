@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".bano">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Tomar baños"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/banio" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_marginTop="30dp"
+        android:text="En el baño podemos explorar el pelaje del perro para ver si tiene parásitos, sobre todo garrapatas. Ahora con el buen tiempo, suelen aparecer más fácilmente, por lo que aumentar la frecuencia del baño es una buena opción para eliminar esos parásitos."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"/>
+
+</LinearLayout>

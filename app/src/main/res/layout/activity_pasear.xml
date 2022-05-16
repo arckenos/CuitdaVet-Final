@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".pasear">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Salir a pasear"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/paseando" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="185dp"
+        android:text="El paseo le permite alcanzar un estado de calma a lo largo del día. Esto te permitirá enseñarle cosas más fácilmente y adiestrarlo de forma más rápida. Los ayuda a liberarse del estrés y controlar su ansiedad e hiperactividad."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

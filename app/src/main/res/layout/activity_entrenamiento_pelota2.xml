@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".EntrenamientoPelota2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir por la pelota"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Paso 2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/perropelotaa" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Instrucciones"
+        android:background="@drawable/boton_cafeclaro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Una vez que el perro recoge la pelota y la tiene en la boca tiene que acudir a tu llamada por ello debe entender la orden “ven”. Si tu perro todavía no domina esta orden … puedes practicarla a la hora de la comida. Mientras tu perro se aproxima hacia ti puedes decirle “ven” para darle comida."
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_atras"
+            android:layout_width="61dp"
+            android:layout_height="43dp"
+            android:background="@drawable/ic_back"
+            android:layout_gravity="start" />
+
+        <Button
+            android:id="@+id/btn_siguiente"
+            android:layout_width="61dp"
+            android:layout_height="43dp"
+            android:background="@drawable/ic_next"
+            android:layout_gravity="end"
+            android:gravity="center"/>
+
+    </GridLayout>
+
+</LinearLayout>

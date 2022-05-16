@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    tools:context=".citas">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Citas recurrentes"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:src="@drawable/veterinario" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_marginTop="30dp"
+        android:text="Por norma general, se recomienda hacerlo una vez al mes aproximadamente para realizar todas las pruebas necesarias que determinen su correcto estado de salud, así como para ponerle las vacunas pertinentes y realizar la desparasitación."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"/>
+
+</LinearLayout>

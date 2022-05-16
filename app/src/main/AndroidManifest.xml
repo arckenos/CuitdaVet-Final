@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="encinas.maria.cuidavet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label=""
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CuidaVet">
+        <activity
+            android:name=".addContacto"
+            android:exported="false" />
+        <activity
+            android:name=".contactos"
+            android:exported="false" />
+        <activity
+            android:name=".citas"
+            android:exported="false" />
+        <activity
+            android:name=".bano"
+            android:exported="false" />
+        <activity
+            android:name=".alimento"
+            android:exported="false" />
+        <activity
+            android:name=".pasear"
+            android:exported="false" />
+        <activity
+            android:name=".Tips"
+            android:exported="false" />
+        <activity
+            android:name=".foro"
+            android:exported="false" />
+        <activity
+            android:name=".HabitosSaludables"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoPata4"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoSentarse3"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoSentarse2"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoSentarse1"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoPelota3"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoPelota2"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoPelota1"
+            android:exported="false" />
+        <activity
+            android:name=".entrenamiento"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoPata3"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoPata2"
+            android:exported="false" />
+        <activity
+            android:name=".EntrenamientoPata1"
+            android:exported="false" />
+        <activity
+            android:name=".compras"
+            android:exported="false" />
+        <activity
+            android:name=".calendario"
+            android:exported="false" />
+        <activity
+            android:name=".registro"
+            android:exported="false" />
+        <activity
+            android:name=".menu_desplegable"
+            android:exported="false"
+            android:label="@string/title_activity_menu_desplegable"
+            android:theme="@style/Theme.CuidaVet.NoActionBar" />
+        <activity
+            android:name=".iniciar_sesion"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

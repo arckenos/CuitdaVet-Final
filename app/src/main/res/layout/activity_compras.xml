@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compras"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_cafeclaro"
+        android:paddingHorizontal="50dp"
+        android:text="Artículos"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:paddingHorizontal="60dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/iv_shampoo"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shampoo_perro" />
+
+        <ImageView
+            android:id="@+id/iv_cepillo"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="end"
+            android:background="@drawable/pelo"
+            android:paddingEnd="60dp" />
+
+        <ImageView
+            android:id="@+id/iv_pelota"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/pelota" />
+
+        <ImageView
+            android:id="@+id/iv_ropa"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ropa"
+            android:paddingEnd="60dp" />
+
+        <ImageView
+            android:id="@+id/iv_collar"
+            android:layout_width="123dp"
+            android:layout_height="138dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/collar" />
+
+        <ImageView
+            android:id="@+id/iv_correa"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/correa"
+            android:paddingEnd="60dp" />
+
+    </GridLayout>
+
+</LinearLayout>
