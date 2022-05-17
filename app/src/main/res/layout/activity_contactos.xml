@@ -11,24 +11,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Contactos de emergencia"
+        android:background="@drawable/boton_cafeoscuro"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:layout_marginBottom="20dp"/>
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_agregarContacto"
+        android:layout_width="57dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:background="@drawable/round_et"
+        android:backgroundTint="#372F18"
+        android:fontFamily="sans-serif-condensed"
+        android:text="+"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="610dp">
 
-        <TextView
-            android:id="@+id/lista"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:text="Contactos de emergencia"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listaContactos"
+                android:layout_width="match_parent"
+                android:layout_height="557dp" />
+
+        </LinearLayout>
 
     </ScrollView>
 

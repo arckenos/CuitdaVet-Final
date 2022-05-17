@@ -7,10 +7,37 @@
     android:orientation="vertical"
     tools:context=".calendario">
 
-
-    <ListView
-        android:id="@+id/listaEventos"
+    <TextView
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_cafeoscuro"
+        android:paddingHorizontal="50dp"
+        android:text="Mis Eventos"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listaEventos"
+                android:layout_width="match_parent"
+                android:layout_height="557dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

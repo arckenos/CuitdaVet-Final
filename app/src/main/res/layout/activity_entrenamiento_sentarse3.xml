@@ -61,14 +61,6 @@
             android:background="@drawable/ic_back"
             android:layout_gravity="start" />
 
-        <Button
-            android:id="@+id/btn_siguiente"
-            android:layout_width="61dp"
-            android:layout_height="43dp"
-            android:background="@drawable/ic_next"
-            android:layout_gravity="end"
-            android:gravity="center"/>
-
     </GridLayout>
 
 </LinearLayout>

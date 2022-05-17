@@ -14,7 +14,6 @@ import com.google.firebase.database.FirebaseDatabase
 
 class calendario : AppCompatActivity() {
 
-
     private var eventos = ArrayList<Evento>()
     private val eventosRef = FirebaseDatabase.getInstance().getReference("Eventos")
     lateinit var listView : ListView

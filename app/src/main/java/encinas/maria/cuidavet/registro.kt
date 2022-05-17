@@ -65,5 +65,6 @@ class registro : AppCompatActivity() {
     private fun reload(){
         val intent : Intent = Intent(this, iniciar_sesion::class.java)
         startActivity(intent)
+        finish()
     }
 }
