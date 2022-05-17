@@ -35,4 +35,10 @@
         android:label=""
         tools:layout="@layout/fragment_privacidad" />
 
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="encinas.maria.cuidavet.ui.cerrarsesion.SalirFragment"
+        android:label=""
+        tools:layout="@layout/fragment_salir" />
+
 </navigation>

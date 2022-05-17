@@ -24,6 +24,8 @@ class menu_desplegable : AppCompatActivity() {
         binding = ActivityMenuDesplegableBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
+
         setSupportActionBar(binding.appBarMenuDesplegable.toolbar)
 
         val drawerLayout: DrawerLayout = binding.drawerLayout
