@@ -1,15 +1,13 @@
 package encinas.maria.cuidavet
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.ImageView
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 import com.google.firebase.database.FirebaseDatabase
 
 class calendario : AppCompatActivity() {
@@ -21,6 +19,15 @@ class calendario : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calendario)
+
+        val btnAgregar : Button = findViewById(R.id.btn_agregarEvento)
+
+        btnAgregar.setOnClickListener{
+            val intent = Intent(this, addEvento::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         eventos.clear()
         listView= findViewById(R.id.listaEventos)
         cargarEventos()
@@ -42,8 +49,11 @@ class calendario : AppCompatActivity() {
 
                 var fecha = Fecha(dia, mes, anio)
                 var evento = Evento(asunto,fecha,usuario)
-                eventos.add(evento)
 
+                if (usuario == sesion.usuarioActivo.usuario){
+                    eventos.add(evento)
+
+                }
             }
             var adaptador =AdaptadorEventos(this, eventos)
             listView.adapter=adaptador

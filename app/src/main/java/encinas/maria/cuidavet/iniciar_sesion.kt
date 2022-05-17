@@ -80,7 +80,7 @@ class iniciar_sesion : AppCompatActivity() {
     }
 
     private fun reload(){
-        val intent = Intent(this,calendario::class.java)
+        val intent = Intent(this, menu_desplegable::class.java)
         this.startActivity(intent)
     }
 }
