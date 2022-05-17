@@ -35,7 +35,7 @@
     <EditText
         android:id="@+id/etNombre"
         android:layout_width="300dp"
-        android:layout_height="43dp"
+        android:layout_height="45dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_et"

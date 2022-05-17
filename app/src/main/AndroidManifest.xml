@@ -6,10 +6,10 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo"
-        android:label=""
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CuidaVet">
+        android:theme="@style/Theme.CuidaVet.NoActionBar" >
         <activity
             android:name=".comprar"
             android:exported="false" />
