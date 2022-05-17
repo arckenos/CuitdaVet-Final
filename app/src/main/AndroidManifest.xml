@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CuidaVet">
         <activity
+            android:name=".comprar"
+            android:exported="false" />
+        <activity
             android:name=".addMascota"
             android:exported="false" />
         <activity
@@ -78,9 +81,6 @@
             android:exported="false" />
         <activity
             android:name=".EntrenamientoPata1"
-            android:exported="false" />
-        <activity
-            android:name=".compras"
             android:exported="false" />
         <activity
             android:name=".calendario"

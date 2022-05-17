@@ -4,13 +4,12 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 
-class compras : AppCompatActivity() {
+class comprar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_compras)
+        setContentView(R.layout.activity_comprar)
 
         val ivShampoo : ImageView = findViewById(R.id.iv_shampoo)
         val ivCepillo : ImageView = findViewById(R.id.iv_cepillo)

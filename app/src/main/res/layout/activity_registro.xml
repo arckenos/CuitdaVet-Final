@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".registro"
     android:orientation="vertical"
+    android:layout_margin="30dp"
     >
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/boton_cafeclaro"
+        android:background="@drawable/boton_cafeoscuro"
         android:paddingHorizontal="50dp"
         android:text="Registro"
         android:textAllCaps="false"
@@ -21,7 +22,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="20dp"
         />
 
     <ImageView

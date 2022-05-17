@@ -30,7 +30,7 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
         bin.btnCompras.setOnClickListener {
-            val intent = Intent(this@HomeFragment.requireContext(), compras::class.java)
+            val intent = Intent(this@HomeFragment.requireContext(), comprar::class.java)
             startActivity(intent)
         }
         bin.btnEntrenamiento.setOnClickListener{

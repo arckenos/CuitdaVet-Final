@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".compras"
+    tools:context=".comprar"
+    android:layout_margin="30dp"
     android:orientation="vertical">
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/boton_cafeclaro"
+        android:background="@drawable/boton_cafeoscuro"
         android:paddingHorizontal="50dp"
         android:text="Artículos"
         android:textAllCaps="false"
@@ -26,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
-        android:paddingHorizontal="60dp"
+        android:paddingHorizontal="30dp"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -40,8 +41,6 @@
             android:id="@+id/iv_cepillo"
             android:layout_width="wrap_content"
             android:layout_height="120dp"
-            android:layout_row="0"
-            android:layout_column="5"
             android:layout_gravity="end"
             android:background="@drawable/pelo"
             android:paddingEnd="60dp" />
