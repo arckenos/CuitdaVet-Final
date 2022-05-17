@@ -46,6 +46,10 @@ class HomeFragment : Fragment() {
             val intent = Intent(this@HomeFragment.requireContext(), contactos::class.java)
             startActivity(intent)
         }
+        bin.btnMascotas.setOnClickListener{
+            val intent = Intent(this@HomeFragment.requireContext(), mascotas::class.java)
+            startActivity(intent)
+        }
 
         return bin.root
     }

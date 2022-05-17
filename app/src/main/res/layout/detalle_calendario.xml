@@ -26,6 +26,7 @@
                 android:textColor="@color/cafe_oscuro"
                 android:textStyle="bold"
                 android:text="Diciembre"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 />
             <TextView
@@ -34,6 +35,7 @@
                 android:layout_height="50dp"
                 android:textSize="40sp"
                 android:textColor="@color/cafe_claro"
+                android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold"
                 android:text="16"
                 android:textAlignment="center"
@@ -45,6 +47,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cita con para inyectar al tommy"
+            android:fontFamily="sans-serif-condensed"
+
             android:textColor="@color/black"
             android:textSize="15sp"
             android:layout_gravity="center"

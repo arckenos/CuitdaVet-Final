@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CuidaVet">
         <activity
+            android:name=".addMascota"
+            android:exported="false" />
+        <activity
+            android:name=".mascotas"
+            android:exported="false" />
+        <activity
             android:name=".addEvento"
             android:exported="false" />
         <activity
