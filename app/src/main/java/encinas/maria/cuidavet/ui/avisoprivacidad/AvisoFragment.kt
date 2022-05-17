@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import encinas.maria.cuidavet.R
 import encinas.maria.cuidavet.calendario
-import encinas.maria.cuidavet.databinding.FragmentHomeBinding
 import encinas.maria.cuidavet.databinding.FragmentPrivacidadBinding
 import encinas.maria.cuidavet.menu_desplegable
 
@@ -25,9 +24,9 @@ class AvisoFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val bin = FragmentHomeBinding.inflate(layoutInflater)
+        val bin = FragmentPrivacidadBinding.inflate(layoutInflater)
 
-        bin.btnCalendario.setOnClickListener {
+        bin.btnHecho.setOnClickListener {
             val intent = Intent(this@AvisoFragment.requireContext(), menu_desplegable::class.java)
             startActivity(intent)
         }

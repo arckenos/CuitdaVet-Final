@@ -5,6 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.notas.NotasFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/veterinario" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Nota"
+        android:background="@drawable/boton_cafeclaro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:text="No olvides revisar las citas de tu mascota para evitar olvidarlas."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed" />
 
 </LinearLayout>
